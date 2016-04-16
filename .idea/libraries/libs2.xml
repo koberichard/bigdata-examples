@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="libs2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/IdeaProjects/BigDataDesignMode/kafka-0.9.0/log4j-appender/build/libs/kafka-log4j-appender-0.9.0.2-SNAPSHOT-sources.jar!/" />
+      <root url="jar://$USER_HOME$/IdeaProjects/BigDataDesignMode/kafka-0.9.0/log4j-appender/build/libs/kafka-log4j-appender-0.9.0.2-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

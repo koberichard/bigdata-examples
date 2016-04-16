@@ -1,0 +1,19 @@
+<component name="libraryTable">
+  <library name="dependant-libs-2.10.51">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/IdeaProjects/BigDataDesignMode/kafka-0.9.0/core/build/dependant-libs-2.10.5/jopt-simple-3.2.jar!/" />
+      <root url="jar://$USER_HOME$/IdeaProjects/BigDataDesignMode/kafka-0.9.0/core/build/dependant-libs-2.10.5/zkclient-0.7.jar!/" />
+      <root url="jar://$USER_HOME$/IdeaProjects/BigDataDesignMode/kafka-0.9.0/core/build/dependant-libs-2.10.5/slf4j-api-1.7.6.jar!/" />
+      <root url="jar://$USER_HOME$/IdeaProjects/BigDataDesignMode/kafka-0.9.0/core/build/dependant-libs-2.10.5/zookeeper-3.4.6.jar!/" />
+      <root url="jar://$USER_HOME$/IdeaProjects/BigDataDesignMode/kafka-0.9.0/core/build/dependant-libs-2.10.5/slf4j-log4j12-1.7.6.jar!/" />
+      <root url="jar://$USER_HOME$/IdeaProjects/BigDataDesignMode/kafka-0.9.0/core/build/dependant-libs-2.10.5/metrics-core-2.2.0.jar!/" />
+      <root url="jar://$USER_HOME$/IdeaProjects/BigDataDesignMode/kafka-0.9.0/core/build/dependant-libs-2.10.5/scala-library-2.10.5.jar!/" />
+      <root url="jar://$USER_HOME$/IdeaProjects/BigDataDesignMode/kafka-0.9.0/core/build/dependant-libs-2.10.5/lz4-1.2.0.jar!/" />
+      <root url="jar://$USER_HOME$/IdeaProjects/BigDataDesignMode/kafka-0.9.0/core/build/dependant-libs-2.10.5/snappy-java-1.1.1.7.jar!/" />
+      <root url="jar://$USER_HOME$/IdeaProjects/BigDataDesignMode/kafka-0.9.0/core/build/dependant-libs-2.10.5/slf4j-log4j12-1.7.10.jar!/" />
+      <root url="jar://$USER_HOME$/IdeaProjects/BigDataDesignMode/kafka-0.9.0/core/build/dependant-libs-2.10.5/log4j-1.2.17.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
