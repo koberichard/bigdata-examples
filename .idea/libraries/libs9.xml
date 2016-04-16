@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="libs9">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/IdeaProjects/BigDataDesignMode/kafka-0.9.0/connect/file/build/libs/connect-file-0.9.0.2-SNAPSHOT-sources.jar!/" />
+      <root url="jar://$USER_HOME$/IdeaProjects/BigDataDesignMode/kafka-0.9.0/connect/file/build/libs/connect-file-0.9.0.2-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

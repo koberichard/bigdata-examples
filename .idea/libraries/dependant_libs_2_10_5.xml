@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="dependant-libs-2.10.5">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/IdeaProjects/BigDataDesignMode/kafka-0.9.0/tools/build/dependant-libs-2.10.5/slf4j-api-1.7.6.jar!/" />
+      <root url="jar://$USER_HOME$/IdeaProjects/BigDataDesignMode/kafka-0.9.0/tools/build/dependant-libs-2.10.5/log4j-1.2.17.jar!/" />
+      <root url="jar://$USER_HOME$/IdeaProjects/BigDataDesignMode/kafka-0.9.0/tools/build/dependant-libs-2.10.5/lz4-1.2.0.jar!/" />
+      <root url="jar://$USER_HOME$/IdeaProjects/BigDataDesignMode/kafka-0.9.0/tools/build/dependant-libs-2.10.5/jackson-databind-2.5.4.jar!/" />
+      <root url="jar://$USER_HOME$/IdeaProjects/BigDataDesignMode/kafka-0.9.0/tools/build/dependant-libs-2.10.5/kafka-log4j-appender-0.9.0.2-SNAPSHOT.jar!/" />
+      <root url="jar://$USER_HOME$/IdeaProjects/BigDataDesignMode/kafka-0.9.0/tools/build/dependant-libs-2.10.5/argparse4j-0.5.0.jar!/" />
+      <root url="jar://$USER_HOME$/IdeaProjects/BigDataDesignMode/kafka-0.9.0/tools/build/dependant-libs-2.10.5/slf4j-log4j12-1.7.6.jar!/" />
+      <root url="jar://$USER_HOME$/IdeaProjects/BigDataDesignMode/kafka-0.9.0/tools/build/dependant-libs-2.10.5/jackson-annotations-2.5.0.jar!/" />
+      <root url="jar://$USER_HOME$/IdeaProjects/BigDataDesignMode/kafka-0.9.0/tools/build/dependant-libs-2.10.5/snappy-java-1.1.1.7.jar!/" />
+      <root url="jar://$USER_HOME$/IdeaProjects/BigDataDesignMode/kafka-0.9.0/tools/build/dependant-libs-2.10.5/jackson-core-2.5.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
