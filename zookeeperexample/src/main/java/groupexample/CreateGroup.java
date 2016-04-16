@@ -1,7 +1,12 @@
 package groupexample;
 
 
-import org.apache.zookeeper.*;
+import org.apache.zookeeper.CreateMode;
+import org.apache.zookeeper.KeeperException;
+import org.apache.zookeeper.WatchedEvent;
+import org.apache.zookeeper.Watcher;
+import org.apache.zookeeper.ZooDefs;
+import org.apache.zookeeper.ZooKeeper;
 
 import java.io.IOException;
 import java.util.concurrent.CountDownLatch;
@@ -40,7 +45,7 @@ public class CreateGroup implements Watcher {
 	public static void main(String[] args) throws Exception {
 		CreateGroup createGroup = new CreateGroup();
 		createGroup.connect(args[0]);
-		createGroup.connect(args[1]);
+		createGroup.create(args[1]);
 		createGroup.close();
 	}
 }
