@@ -22,11 +22,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="zookeeperexample" />
+        <module name="bigdata" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="zookeeperexample" target="1.5" />
+      <module name="bigdata" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
