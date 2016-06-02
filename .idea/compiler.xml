@@ -17,16 +17,25 @@
       <profile default="true" name="Default" enabled="false">
         <processorPath useClasspath="true" />
       </profile>
-      <profile default="false" name="Maven default annotation processors profile" enabled="true">
+      <profile default="false" name="Annotation profile for zkexam" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="bigdata" />
+        <module name="zkexam" />
+      </profile>
+      <profile default="false" name="Annotation profile for kafkaexam" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="kafkaexam" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="bigdata" target="1.5" />
+    <bytecodeTargetLevel target="1.7">
+      <module name="bigdata" target="1.7" />
+      <module name="kafkaexam" target="1.7" />
+      <module name="zkexam" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>
