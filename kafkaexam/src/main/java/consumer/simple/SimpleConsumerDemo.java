@@ -30,10 +30,10 @@ public class SimpleConsumerDemo {
 		}
 	}
 
-	private static void generateData() {
-		Producer producer2 = new Producer(KafkaProperties.TOPIC2, false,"");
+	private static void generateData(String topic1, String topic2, String brokerList) {
+		Producer producer2 = new Producer(topic1, false, brokerList);
 		producer2.start();
-		Producer producer3 = new Producer(KafkaProperties.TOPIC3, false,"");
+		Producer producer3 = new Producer(topic2, false, brokerList);
 		producer3.start();
 		try {
 			Thread.sleep(1000);
@@ -43,7 +43,8 @@ public class SimpleConsumerDemo {
 	}
 
 	public static void main(String[] args) throws Exception {
-		generateData();
+		// start producer
+		generateData(args[0],args[1],args[2]);
 
 		SimpleConsumer simpleConsumer = new SimpleConsumer(KafkaProperties.KAFKA_SERVER_URL,
 				KafkaProperties.KAFKA_SERVER_PORT,
@@ -54,19 +55,19 @@ public class SimpleConsumerDemo {
 		System.out.println("Testing single fetch");
 		FetchRequest req = new FetchRequestBuilder()
 				.clientId(KafkaProperties.CLIENT_ID)
-				.addFetch(KafkaProperties.TOPIC2, 0, 0L, 100)
+				.addFetch(args[0], 0, 0L, 100)
 				.build();
 		FetchResponse fetchResponse = simpleConsumer.fetch(req);
-		printMessages(fetchResponse.messageSet(KafkaProperties.TOPIC2, 0));
+		printMessages(fetchResponse.messageSet(args[0], 0));
 
-		System.out.println("Testing single multi-fetch");
+		System.out.println("Testing multi-fetch");
 		Map<String, List<Integer>> topicMap = new HashMap<>();
-		topicMap.put(KafkaProperties.TOPIC2, Collections.singletonList(0));
-		topicMap.put(KafkaProperties.TOPIC3, Collections.singletonList(0));
+		topicMap.put(args[0], Collections.singletonList(0));
+		topicMap.put(args[1], Collections.singletonList(0));
 		req = new FetchRequestBuilder()
 				.clientId(KafkaProperties.CLIENT_ID)
-				.addFetch(KafkaProperties.TOPIC2, 0, 0L, 100)
-				.addFetch(KafkaProperties.TOPIC3, 0, 0L, 100)
+				.addFetch(args[0], 0, 0L, 100)
+				.addFetch(args[1], 0, 0L, 100)
 				.build();
 		fetchResponse = simpleConsumer.fetch(req);
 		int fetchReq = 0;
